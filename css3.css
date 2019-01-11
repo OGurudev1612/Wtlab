@@ -1,0 +1,19 @@
+body{
+    background-color: deepskyblue;
+}
+.first{
+    color: red;
+    font-style: italic;
+    font-size: 40px;
+}
+.sec{
+    color:black;
+    font-weight: bold;
+}
+.third{
+    color: saddlebrown;
+    font-size:30px;
+}
+.four{
+    color: gray;
+}
