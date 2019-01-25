@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript</title>
+    <script>
+        arr = [1, 2, 3, 4, 5];
+
+        function change(a, b) {
+            x = arr[a];
+            arr[a] = arr[b];
+            arr[b] = x;
+        }
+
+    </script>
+</head>
+
+<body>
+    <script>
+        document.writeln("array" + arr);
+        change(0, 3);
+        document.writeln("changing 0 and 3" + arr);
+
+    </script>
+</body>
+
+</html>
